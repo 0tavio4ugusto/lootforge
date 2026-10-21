@@ -1,0 +1,25 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.1rem;
+}
+
+.card {
+  background: linear-gradient(160deg, #14213f, var(--surface));
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 1.2rem;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.card h3 {
+  margin: 0;
+  color: var(--ink);
+  font-size: 1.12rem;
+}
+
+.card p {
+  margin: 0;
+  color: var(--ink-dim);
+}

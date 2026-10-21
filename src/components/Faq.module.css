@@ -1,0 +1,22 @@
+.list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.item {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 0.9rem 1.1rem;
+  background: rgba(13, 20, 40, 0.6);
+}
+
+.item summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.item p {
+  margin: 0.75rem 0 0;
+  color: var(--ink-dim);
+}

@@ -1,0 +1,12 @@
+.steps {
+  margin: 0;
+  padding-left: 1.25rem;
+  display: grid;
+  gap: 0.65rem;
+  color: var(--ink-dim);
+  font-size: 1.05rem;
+}
+
+.steps li::marker {
+  color: var(--accent);
+}

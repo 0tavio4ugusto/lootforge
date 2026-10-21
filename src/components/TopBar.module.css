@@ -1,0 +1,46 @@
+.bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.9rem 1.5rem;
+  background: rgba(7, 11, 24, 0.82);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+
+.logo {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 1.15rem;
+  font-size: 0.95rem;
+}
+
+.nav a:hover {
+  color: var(--accent);
+}
+
+.cta {
+  padding: 0.5rem 0.95rem;
+  border-radius: 999px;
+  background: linear-gradient(140deg, var(--accent), var(--accent-deep));
+  color: #04121a;
+  font-weight: 700;
+}
+
+@media (max-width: 720px) {
+  .nav a:not(.cta) {
+    display: none;
+  }
+}

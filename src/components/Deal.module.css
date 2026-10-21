@@ -1,0 +1,13 @@
+.box {
+  background: linear-gradient(150deg, #14213f, var(--surface));
+  border: 1px solid var(--accent-deep);
+  border-radius: 18px;
+  padding: 1.5rem;
+  display: grid;
+  gap: 0.5rem;
+  color: var(--ink-dim);
+}
+
+.box strong {
+  color: var(--gold);
+}
